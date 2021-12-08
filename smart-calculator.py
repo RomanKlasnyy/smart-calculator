@@ -10,8 +10,8 @@ while True:
         print('Bye!')
         break
     elif inp == '/help':
-        print('Smart calculator. Separate numbers and operators with spaces (2 + 2)')
-        print('It will automatically detect errors. Supported operators: (+) (-)')
+        print('Smart calculator. Separate numbers and operators with spaces, angle brackets should not be separated: (2 + 2).')
+        print('It will automatically detect errors. Supported operators: (+) (-) (*) (/)')
     elif inp.startswith('/'):
         print('Unknown command')
     elif '=' in inp:
