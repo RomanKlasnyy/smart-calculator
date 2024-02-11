@@ -3,7 +3,7 @@ import re
 variables = {}
 
 while True:
-    inp = input()  # replace with input() later
+    inp = input()
     if not inp or len(inp) == 0:
         continue
     elif inp == '/exit':
